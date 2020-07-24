@@ -14,6 +14,8 @@ app.on('ready',() =>{
         height:300,
         webPreferences:{
             nodeIntegration: true
-        }
+        },
+        parent: mainWindwo
     })
+    secondWindow.loadFile('seconde.html')
 })
